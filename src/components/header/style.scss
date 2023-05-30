@@ -1,0 +1,147 @@
+.header {
+  margin: 25px 0;
+}
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.visible {
+  display: none;
+}
+.headerUl {
+  display: flex;
+  gap: 62px;
+  align-items: center;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 150%;
+  li {
+    cursor: pointer;
+  }
+
+  .forOpenSans {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 150%;
+  }
+}
+.languageUl {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.open {
+  display: flex;
+  flex-direction: column;
+
+  ul {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    top: 71px;
+    padding: 10px 0 10px 10px;
+    width: 208px;
+    height: 312px;
+    background: #ffffff;
+    box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    cursor: pointer;
+
+    li {
+      font-family: "Raleway";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17px;
+
+      &:hover {
+        background-color: #ff9619;
+        margin-top: -10px;
+        margin-bottom: -10px;
+        margin-left: -10px;
+        white-space: nowrap;
+        padding: 10px 160px 10px 10px;
+        color: #ffffff;
+      }
+    }
+  }
+}
+.lang {
+  margin-right: -1000px;
+}
+.upper {
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.openLanguage {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background: #ffffff;
+  box-shadow: 0px 4px 9px 2px rgba(0, 0, 0, 0.15);
+  width: 32px;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  li {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    z-index: 1;
+    width: 20px;
+    height: 25px;
+
+    &:hover {
+      color: #ff9619;
+    }
+  }
+  .active {
+    color: #ff9619;
+  }
+}
+.header-phone {
+  &:hover {
+    color: #ff9619;
+  }
+}
+@media (max-width: 400px) {
+  .headerUl {
+    gap: 0px;
+  }
+  .header-hidden {
+    display: none;
+  }
+  .visible {
+    position: relative;
+    display: block;
+  }
+  .header-logo {
+    margin-right: 96px;
+    max-width: 92px;
+    max-height: 34px;
+    margin-left: 18px;
+  }
+  .header-phone {
+    margin-left: 31px;
+    margin-right: 34px;
+    max-width: 21px;
+    max-height: 21px;
+  }
+  .container {
+    max-width: 374px;
+    padding: 0 18px;
+    margin: 0 auto;
+  }
+  .lang {
+    margin-right: unset;
+  }
+}

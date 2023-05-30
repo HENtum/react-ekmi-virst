@@ -1,0 +1,135 @@
+.container-logo {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.ekmi-logo {
+  margin-top: -115px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 130px;
+  line-height: 110%;
+  letter-spacing: 0.13em;
+  color: #5b5b5b;
+  float: right;
+}
+.footer-fon {
+  margin-top: 254px;
+  background: #5b5b5b;
+  padding-top: 80px;
+  padding-bottom: 29px;
+}
+.container-footer {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.footer-words {
+  display: flex;
+}
+.footer-ul {
+  margin-left: 100px;
+  display: flex;
+  position: relative;
+  width: 350px;
+  height: 160px;
+}
+.footer-ul1 {
+  top: 0;
+  position: absolute;
+  bottom: 0;
+  gap: 16px;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+
+  li {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 150%;
+    color: #ffffff;
+    letter-spacing: 0.16em;
+    text-transform: capitalize;
+  }
+}
+.footer-ul2 {
+  top: 0;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  right: 0;
+  bottom: 0;
+  li {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 150%;
+    color: #ffffff;
+    letter-spacing: 0.16em;
+    text-transform: capitalize;
+  }
+}
+.individ-li {
+  width: 133px;
+  height: 33px;
+}
+.gap-li {
+  margin-top: 3px;
+}
+.li-weight {
+  font-weight: 600;
+}
+.footer-contact {
+  margin-left: 180px;
+}
+.footer-images {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 32px;
+}
+.footer-number {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 150%;
+  color: #ffffff;
+  margin-bottom: 32px;
+}
+.button-footer {
+  button {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 150%;
+    color: #ffffff;
+    text-transform: uppercase;
+    width: 271px;
+    height: 42px;
+    background: #ff9619;
+    border: 1px solid #ff9619;
+
+    &:hover {
+      background: #ffffff;
+      color: #ff9619;
+    }
+  }
+}
+.aftor {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.16em;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-top: 80px;
+}

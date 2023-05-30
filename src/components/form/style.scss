@@ -1,0 +1,46 @@
+.form {
+  background: #a9c2be;
+  margin-top: 160px;
+  position: relative;
+}
+.container-form {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.formInput {
+  display: flex;
+}
+.formDiv {
+  margin-top: 30px;
+  margin-left: -70px;
+  position: absolute;
+  width: 470px;
+  height: 417px;
+  background: #ffffff;
+  padding: 31px 49px 17px 50px;
+}
+
+.buttonForm {
+  position: absolute;
+  top: 357px;
+  left: 130px;
+  button {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #ffffff;
+
+    width: 209.54px;
+    height: 43px;
+    background-color: #ff9619;
+    border: none;
+
+    &:hover {
+      background-color: #5b5b5b;
+    }
+  }
+}

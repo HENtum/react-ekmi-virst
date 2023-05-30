@@ -1,0 +1,129 @@
+.form-flex {
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ff9619;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  text-transform: uppercase;
+  color: #343434;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  position: relative;
+}
+.form-group label {
+  position: absolute;
+  top: 5px;
+  z-index: 1;
+  transition: 0.3s;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #343434;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.form-group input {
+  width: 100%;
+  padding: 0 0 0 0;
+  border: none;
+  border-bottom: 1px solid #d1d1d1;
+  outline: none;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.form-group input:focus {
+  border-bottom: 1px solid #1a73a8;
+}
+.form-group .active {
+  margin-top: -18px;
+  font-size: 12px;
+  color: #a4c3f5;
+}
+
+.checkboxDiv {
+  display: flex;
+  gap: 10px;
+}
+
+.checkbox {
+  position: absolute;
+  z-index: 1;
+  width: 20px;
+  height: 20px;
+  left: 47px;
+  top: 309px;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkboxChect {
+  display: inline-block;
+  color: #1a73a8;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #d1d1d1;
+  border-radius: 0px;
+  opacity: 1;
+}
+
+.checkboxChect::before {
+  content: url("../../../public/images/forForm/chect.png");
+  display: inline-block;
+  opacity: 0;
+  position: absolute;
+  left: 53px;
+  top: 315px;
+  display: block;
+}
+
+.checkbox:checked + .checkboxChect::before {
+  opacity: 1;
+}
+
+.checkboxLabel {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  color: #343434;
+  opacity: 0.5;
+  width: 219px;
+  height: 23;
+}
+
+.O {
+  position: absolute;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 160px;
+  line-height: 110%;
+  color: #ff9619;
+  top: 0;
+  left: 0;
+  margin-left: -78px;
+  margin-top: -51px;
+  z-index: 1;
+}/*# sourceMappingURL=style.css.map */

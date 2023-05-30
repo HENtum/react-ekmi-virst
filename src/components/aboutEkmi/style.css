@@ -1,0 +1,51 @@
+.aboutEkmi {
+  margin-top: 160px;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.about {
+  display: flex;
+  gap: 69px;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutGroup {
+  position: relative;
+}
+.aboutGroup span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 176px;
+  line-height: 111.5%;
+  color: rgba(90, 90, 90, 0.1);
+}
+.aboutGroup p {
+  margin-top: -145px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 127.5%;
+  color: #343434;
+  width: 278px;
+  height: 207px;
+}
+
+.about_P1 {
+  margin-left: 36px;
+}
+
+.about_P2 {
+  margin-left: 77px;
+}
+
+.about_P3 {
+  margin-left: 83px;
+}/*# sourceMappingURL=style.css.map */

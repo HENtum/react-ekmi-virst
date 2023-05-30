@@ -1,0 +1,11 @@
+.form-container {
+  max-width: 300px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.home-form {
+  position: absolute;
+  margin-top: -69px;
+  z-index: 1;
+}/*# sourceMappingURL=style.css.map */
